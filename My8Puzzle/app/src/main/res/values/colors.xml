@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="m_blue_primary">#58B</color>
+    <color name="m_blue_primary_dark">#369</color>
+    <color name="m_blue_primary_darker">#147</color>
+    <color name="m_blue_primary_darkest">#036</color>
+    <color name="m_yellow_secondary">#FB0</color>
+    <color name="m_yellow_secondary_dark">#F90</color>
+    <color name="m_yellow_secondary_darker">#F80</color>
+    <color name="m_yellow_secondary_darkest">#E60</color>
+    <color name="m_black">#151515</color>
+    <color name="m_gray">#999</color>
+    <color name="m_white">#EEE</color>
+    <color name="m_tran">#00EEEEEE</color>
+</resources>

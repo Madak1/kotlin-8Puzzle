@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.My8Puzzle" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/m_blue_primary</item>
+        <item name="colorPrimaryVariant">@color/m_blue_primary_dark</item>
+        <item name="colorOnPrimary">@color/m_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/m_yellow_secondary</item>
+        <item name="colorSecondaryVariant">@color/m_yellow_secondary_dark</item>
+        <item name="colorOnSecondary">@color/m_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/m_blue_primary_darker</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/m_blue_primary_darker</item>
+    </style>
+
+    <style name="Theme.My8Puzzle" parent="Base.Theme.My8Puzzle" />
+</resources>

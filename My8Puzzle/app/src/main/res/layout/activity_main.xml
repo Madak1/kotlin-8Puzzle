@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/m_blue_primary_darker"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/main_start_btn"
+        layout="@layout/card_btn"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/main_settings_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        android:id="@+id/main_settings_btn"
+        layout="@layout/card_btn"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/main_leaderboard_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <include
+        android:id="@+id/main_leaderboard_btn"
+        layout="@layout/card_btn"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_n1_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n1" />
+
+    <ImageView
+        android:id="@+id/main_n2_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toStartOf="@+id/main_n3_iv"
+        app:layout_constraintStart_toEndOf="@+id/main_n1_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n2" />
+
+    <ImageView
+        android:id="@+id/main_n3_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n3" />
+
+    <ImageView
+        android:id="@+id/main_n4_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n4" />
+
+    <ImageView
+        android:id="@+id/main_n5_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toStartOf="@+id/main_n3_iv"
+        app:layout_constraintStart_toEndOf="@+id/main_n1_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n5" />
+
+    <ImageView
+        android:id="@+id/main_n6_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n6" />
+
+    <ImageView
+        android:id="@+id/main_n7_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n7" />
+
+    <ImageView
+        android:id="@+id/main_n8_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toStartOf="@+id/main_n3_iv"
+        app:layout_constraintStart_toEndOf="@+id/main_n1_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n8" />
+
+    <ImageView
+        android:id="@+id/main_n9_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/main_tile_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"
+        app:srcCompat="@drawable/n9" />
+
+    <ImageView
+        android:id="@+id/main_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/main_logo_iv_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

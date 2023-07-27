@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/board_original_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/o_board_v2"
+        android:contentDescription="@string/board_original_iv_desc" />
+
+    <ImageView
+        android:id="@+id/board_tile11_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_1" />
+
+    <ImageView
+        android:id="@+id/board_tile12_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile11_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_2" />
+
+    <ImageView
+        android:id="@+id/board_tile13_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile12_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_3" />
+
+    <ImageView
+        android:id="@+id/board_tile21_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile11_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_4" />
+
+    <ImageView
+        android:id="@+id/board_tile22_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile21_iv"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile12_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_5" />
+
+    <ImageView
+        android:id="@+id/board_tile23_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile22_iv"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile13_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_6" />
+
+    <ImageView
+        android:id="@+id/board_tile31_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile21_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_7" />
+
+    <ImageView
+        android:id="@+id/board_tile32_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile31_iv"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile22_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_8" />
+
+    <ImageView
+        android:id="@+id/board_tile33_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        app:layout_constraintStart_toEndOf="@+id/board_tile32_iv"
+        app:layout_constraintTop_toBottomOf="@+id/board_tile23_iv"
+        app:srcCompat="@drawable/tile_v2"
+        android:contentDescription="@string/num_9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
